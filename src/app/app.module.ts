@@ -9,13 +9,17 @@ import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
 
 import { routing } from './app.routing';
+import { ArtistComponent } from './artist/artist.component';
+import { AlbumComponent } from './album/album.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SearchComponent,
-    AboutComponent
+    AboutComponent,
+    ArtistComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +27,6 @@ import { routing } from './app.routing';
     HttpModule,
     routing
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
