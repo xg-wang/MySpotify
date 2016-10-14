@@ -1,3 +1,3 @@
-export class Album {
-  id: number;
+export class Album{
+    id: number;
 }
